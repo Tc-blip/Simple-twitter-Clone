@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>twitter</title>
+    <<meta name='viewport' content='width=device-width, initial-scale=1,shrink-to-fit=no'>
+    <title>twitter</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+    <br><br><br><br>
+    <h2 align="center" sytle=" color: blue"> twitter clone</h2>
+    <div class = "container">
+       <h4>Logged out</h4>
+       <a href="{%url 'login'%}"><p>Click here to login</p></a>
+    </div>
+
+    {%if messages%}
+        {%for messages in messages%}
+            {{messages}}
+        {%endfor%}
+    {%endif%}
+</body>
+</html>
