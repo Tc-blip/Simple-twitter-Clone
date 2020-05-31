@@ -11,7 +11,7 @@ py -3 -m venv django
 activate
 
 ```
-.django/bin/activate 
+django\Scripts\activate
 ```
 
 2. install Django
@@ -55,4 +55,16 @@ python manage.py runserver
 
       Instances of Feed classes are views which can be used in your URLconf.
 
-4. 
+4. Django的migrations
+
+   1. ```cmd
+      python manage.py  migrate
+      ```
+
+5. add superuser 
+
+   1. ```Django
+      python manage.py createsuperuser
+      ```
+
+      
