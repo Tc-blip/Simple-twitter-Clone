@@ -1,3 +1,10 @@
+# Simple-twitter-Clone
+Simple Twitter clone via Django
+Features include：
+  1. user auth
+  2. user profile( CRUD profile include images)
+  3. CRUD tweets
+
 # 1. START
 1. virtualvenv
 
@@ -22,3 +29,5 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+
+
