@@ -4,6 +4,10 @@ Features include：
   1. user auth
   2. user profile( CRUD profile include images)
   3. CRUD tweets
+  
+### Environments
+- Django==3.0.6
+- python
 
 # 1. START
 1. virtualvenv
